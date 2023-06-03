@@ -8,7 +8,9 @@ img:hover
 {
     opacity: 0.5;
 }
-.article img:third-child
+main section:nth-child(2) img
 {
     filter: grayscale(100%);
+
 }
+
