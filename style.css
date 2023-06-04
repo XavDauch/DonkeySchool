@@ -1,0 +1,41 @@
+img {
+    border-radius: 3px;
+    width: 100%;
+    height: auto;
+}
+img:hover {
+    opacity: 0.5;
+}
+main section:nth-child(2) img{
+    filter: grayscale(100%);
+}
+
+ul {
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    border: 5px solid #10cea2;
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    background-color: #1838d8;
+}
+li {
+    float: left;
+    border-right width: ;: 2px solid #66bde6;
+    
+}
+li:last-child {border-right: none;
+}
+li a {
+        display: block;
+        color: #10cea2;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+}
+
+li a:hover {
+    background-color: #b2afb8
+}
