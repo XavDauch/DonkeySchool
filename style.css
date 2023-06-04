@@ -3,7 +3,7 @@ body {
 }
 img {
     border-radius: 3px;
-    width: 25%;
+    width: 100%;
     height: auto;
 }
 img:hover {
@@ -45,5 +45,11 @@ li a:hover {
     background-color: #b2afb8;
 }
 @media screen and (min-width: 600px) {
-    body {background-color: #0fe5a123;}
+    body {
+        background-color: #0fe5a123;
+    }
+    img {
+        width: 25%;
+    }
  }
+
